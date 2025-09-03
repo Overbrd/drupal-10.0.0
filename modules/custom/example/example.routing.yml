@@ -1,0 +1,8 @@
+example.hello:
+  path: '/example-hello'
+  defaults:
+    _controller: '\Drupal\example\Controller\ExampleController:hello'
+    _title: 'Example Quiz'
+  requirements:
+    _access: 'TRUE'
+
