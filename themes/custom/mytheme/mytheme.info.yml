@@ -1,0 +1,22 @@
+name: My Theme
+type: theme
+base theme: stable9
+description: "A custom theme for Drupal."
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+libraries:
+   - mytheme/global-styling
+ckeditor_stylesheets:
+  - css/style.css
+ckeditor5-stylesheets:
+  - css/ck5style.css
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

@@ -1,0 +1,12 @@
+<?php
+/**
+* Implements hook_theme().
+*/
+function mytheme_theme() {
+ return array(
+   'my_custom_template' => array(
+     'render element' => 'elements',
+     'template' => 'my-custom-template',
+   ),
+ );
+}
